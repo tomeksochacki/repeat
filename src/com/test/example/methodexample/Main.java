@@ -14,6 +14,9 @@ public class Main {
         double score2 = test.divide(15,0);
         System.out.println(score2);
 
+        double score3 = test.add(2.23, 4.34);
+        System.out.println(score3);
+
     }
 }
 
@@ -26,6 +29,9 @@ class Test{
 
     int add(int x, int y){
        return x + y;
+    }
+    double add(double x, double y){
+        return x + y;
     }
 
     double divide(double a,double b){
