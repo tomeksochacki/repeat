@@ -16,7 +16,7 @@ public class StaticMethodVariableExample {
     */
         StaticMethodVariableExample sample = new StaticMethodVariableExample();
         sample.test();
-        
+
         Customer customer1 = new Customer("Tomek");
         Customer customer2 = new Customer("Tom");
         Customer customer3 = new Customer("To");
