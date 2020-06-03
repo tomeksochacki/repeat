@@ -19,10 +19,10 @@ class Point{
     Point(){
         System.out.println("Induce constructor default");
     }
-    Point(int first, int second){
+    Point(int x, int y){
         System.out.println("Induce constructor with two parameters");
-        x = first;
-        y = second;
+        this.x = x;
+        this.y = y;
     }
 
     int x;
